@@ -21,6 +21,7 @@ This will install laravel and all php dependencies.
 
 2.Copy env.sample to .env
 Edit the env file to you local specifications.
+
 <br>  
 
 3.Run
@@ -29,6 +30,7 @@ Edit the env file to you local specifications.
 $ npm install
 ```
 This will install all node modules and JS dependencies.
+
 <br>  
 
 4.Run
