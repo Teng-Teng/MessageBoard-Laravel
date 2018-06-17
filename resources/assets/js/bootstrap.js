@@ -2,7 +2,8 @@
 window._ = require('lodash');
 window.Popper = require('popper.js').default;
 
-
+import Form from './utilities/Form';
+window.Form = Form;
 
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support

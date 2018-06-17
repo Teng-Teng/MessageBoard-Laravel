@@ -19,8 +19,11 @@ Route::get('skills', function() {
     return ['vue', 'java', 'html'];
 });
 
-Route::get('/statuses', function() {
-    return App\Status::with('user')->latest()->get();
-});
+//Route::get('/statuses', function() {
+//    return App\Status::with('user')->latest()->get();
+//});
+
+Route::get('/statuses', 'StatusesController@index');
+Route::post('/statuses', 'StatusesController@store');
 
 
